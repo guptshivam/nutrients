@@ -1,0 +1,58 @@
+{
+  "name": "food-nutrients",
+  "private": false,
+  "version": "1.0.0",
+  "description": "View all the macro & micronutrients of raw foods as % based on daily recommended values. You can quickly identify missing micronutrients from your diet and add foods to your meal that gives you healthier nutrition.",
+  "type": "module",
+  "keywords": [
+    "food",
+    "food-recommendation",
+    "food-classification",
+    "nutrition",
+    "nutrients",
+    "vitamins",
+    "protein",
+    "carbs",
+    "fat",
+    "minerals",
+    "essential",
+    "foods"
+  ],
+  "bugs": {
+    "url": "https://github.com/food-nutrients/food-nutrients/issues"
+  },
+  "homepage": "https://github.com/food-nutrients/food-nutrients#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/food-nutrients/food-nutrients.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "antd": "^5.18.0",
+    "chart.js": "^4.4.3",
+    "immutability-helper": "^3.1.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.2.0",
+    "rxjs": "^7.8.1",
+    "shepherd.js": "^12.0.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
